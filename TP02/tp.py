@@ -897,7 +897,6 @@ def cycle_eulerien(g, u=0):
         True
         >>> cycle_eulerien_verifier(graphe_3(4))
         True
-        >>> graphe_3(5)
         >>> cycle_eulerien_verifier(graphe_3(5))
         True
         >>> cycle_eulerien_verifier(graphe_3(6))
@@ -1287,8 +1286,8 @@ if __name__ == "__main__":
             a_chemin_eulerien,
             promenade,
             cycle_eulerien,
-            #chemin_eulerien,
-            #cycle_hamiltonien,
+            chemin_eulerien,
+            cycle_hamiltonien,
     ]
     for f in fonctions:
         print("**********************************************************************")
