@@ -1,0 +1,20 @@
+{
+  "useWebsocket": true,
+  "useUnsecureURL": false,
+  "hideInformations": false,
+  "dontRefreshInfos": false,
+  "protocol": "https",
+  "hostname": "moodle.caseine.org",
+  "path": "/webservice/rest/server.php",
+  "vplId": "50823",
+  "personalToken": "264a0dcdc8ac5b331f589556eb49a1a7",
+  "files": [
+    "tp.py",
+    "lib/graphe.py",
+    "lib/tasbinomial.py",
+    "lib/sortedcontainers/__init__.py",
+    "lib/sortedcontainers/sorteddict.py",
+    "lib/sortedcontainers/sortedlist.py",
+    "lib/sortedcontainers/sortedset.py"
+  ]
+}
