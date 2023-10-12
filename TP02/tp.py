@@ -544,8 +544,8 @@ def parcours_largeur(g, u):
     enfiler(f,u)
     dejavu.add(u)
     while not est_vide(f):
-        v=defiler(f);
-        print(v, end = " ");
+        v=defiler(f)
+        print(v, end = " ")
         for k in g.voisins(v):
             if k not in dejavu :
                 dejavu.add(k)
